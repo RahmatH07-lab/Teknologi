@@ -10,12 +10,13 @@ body {
 
 /* Header styles */
 header {
-    background-color: #f8f8f8;
+    background-color: #0000ff; /* Blue background for the header */
     padding: 20px 0;
 }
 
 header h1, header p {
     margin: 0;
+    color: white; /* White text color for better contrast */
 }
 
 /* Navigation styles */
@@ -44,4 +45,22 @@ nav .navigation li a {
 
 nav .navigation li a:hover {
     background-color: #575757;
+}
+
+/* Section styles */
+main .container {
+    background-color: #d3d3d3; /* Light gray background for the sections */
+    padding: 20px;
+    text-align: left; /* Align text to the left within sections */
+}
+
+main .container section {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #0000ff; /* Blue background for the footer */
+    padding: 10px 0;
+    color: white; /* White text color for better contrast */
 }
