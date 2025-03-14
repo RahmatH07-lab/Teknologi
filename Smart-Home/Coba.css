@@ -1,0 +1,47 @@
+/* style-smarthome.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* This will center-align the text content */
+}
+
+/* Header styles */
+header {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+}
+
+header h1, header p {
+    margin: 0;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+}
+
+nav .navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav .navigation li {
+    margin: 0 10px;
+}
+
+nav .navigation li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav .navigation li a:hover {
+    background-color: #575757;
+}
