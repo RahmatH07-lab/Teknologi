@@ -64,3 +64,19 @@ footer {
     padding: 10px 0;
     color: white; /* White text color for better contrast */
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    /* Adjust styles for mobile devices */
+    nav .navigation {
+        flex-direction: column;
+    }
+
+    nav .navigation li {
+        margin: 10px 0;
+    }
+
+    main .container {
+        padding: 10px;
+    }
+}
